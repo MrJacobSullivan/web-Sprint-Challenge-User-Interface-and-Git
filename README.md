@@ -38,7 +38,7 @@ Semantic HTML is a way of structuring our HTML documents using tags that are eas
 
 2. Name two big differences between `display: block;` and `display: inline;`.
 
-An element with `display: block;` takes up the whole line and always starts a new line before and afterwards.
+An element with `display: block;` takes up the whole line and always starts a new line before and afterwards.  
 An element with `display: inline;` only takes up as much space as it needs and will not start a new line afterwards.
 
 3. What are the 4 areas of the box model?
@@ -51,7 +51,7 @@ cross axis
 
 5. Explain why git is valuable to a team of developers.
 
-Git allows changes to the codebase to be tracked. It allows for features to be added to software without affecting the main stable codebase. It also allows for reversion if a change causes unexpected behaviors.
+Git allows changes to the codebase to be tracked. It allows for features to be added to software without affecting the main stable branch of the codebase. It also allows for reversion if a change causes unexpected behaviors or a feature needs to be rolled back.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 

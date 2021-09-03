@@ -157,6 +157,11 @@ p {
 
 /* || Common */
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /* header */
 
 header {
@@ -213,11 +218,6 @@ footer nav a {
 }
 
 /* || page: /index.html */
-
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
 
 /* top section */
 
@@ -326,7 +326,7 @@ footer nav a {
 
 .about-page .top-content {
   flex-direction: column;
-  justify-content: flex-start; /* could also just reset display to block */
+  justify-content: flex-start;
   padding: 0.5% 2.5% 2.5%;
 }
 
@@ -350,8 +350,12 @@ footer nav a {
   margin: 4% 0 14%;
 }
 
-.about-page .content-item h2 {
+.about-page .content-item .card h2 {
   padding: 3% 0;
+}
+
+.about-page .content-item .card p {
+  margin-top: 0.5%;
 }
 
 .about-page .content-item .card div {
@@ -376,8 +380,8 @@ footer nav a {
 
 /* bottom section */
 .about-page .bottom-content {
-  justify-content: flex-start; /* could also just reset display to block */
   flex-direction: column;
-  padding: 0 2.5% 2%;
+  justify-content: flex-start;
   margin: 0 0 3%;
+  padding: 0 2.5% 2%;
 }
